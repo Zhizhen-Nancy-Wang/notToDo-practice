@@ -1,0 +1,23 @@
+:root {
+  --purple: darkorchid;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  text-align: center;
+  background-color: rgb(241, 223, 250);
+}
+
+.header {
+  font-size: 40px;
+  font-weight: bolder;
+  color: var(--purple);
+}
+
+.taskList,
+.badList,
+.total-hours {
+  color: var(--purple);
+  font-weight: bold;
+}
